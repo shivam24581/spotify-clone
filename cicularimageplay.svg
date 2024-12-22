@@ -1,0 +1,7 @@
+<svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular Spotify green background with 20px padding -->
+  <circle cx="120" cy="120" r="100" fill="#1DB954" />
+  
+  <!-- Play icon with adjusted points for 20px padding -->
+  <polygon points="100,80 100,160 160,120" fill="black" />
+</svg>

@@ -1,0 +1,96 @@
+.border{
+    border: 1px solid white;
+     
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+
+.invert{
+    filter: invert(1);
+    width: 25px;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.bg-black{
+    background-color: black;
+}
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin:5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Apply a dark theme to the entire page */
+body {
+    
+    overflow-y: scroll;
+  }
+  
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 12px; /* Height for horizontal scrollbar */
+  }
+  
+  /* Scrollbar Track (Background of scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark background */
+    border-radius: 10px;
+  }
+  
+  /* Scrollbar Thumb (The draggable part of scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Dark gray color */
+    border-radius: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  /* Scrollbar Thumb on Hover (Change color when hovering) */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter gray color when hovered */
+  }
+  
+  /* Optional: Styling for scrollbar buttons (arrows) */
+  ::-webkit-scrollbar-button {
+    display: none; /* Hide the scrollbar buttons */
+  }
+  
+  /* For horizontally scrolling content */
+  ::-webkit-scrollbar-horizontal {
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background: #444; /* Darker track */
+  }
+  
+  .space-between{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px; 
+
+    
+
+    align-items: center;
+  }

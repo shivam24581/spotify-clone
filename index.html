@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shivam's Music Player | Spotify Clone</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+  <!-- <div class="uppercontainer flex">
+    <div class="logo">
+      <img class="invert" src="/logo.svg" alt="">
+    </div>
+    
+    <div class="mid-header">
+      <div class="home-header ">
+        <img src="/upperhome.svg" alt="">
+      </div>
+  
+      <div >
+        <input class="upper-search" type="text" placeholder="What do you want to play?">
+        
+      </div>
+    </div>
+    <div class="flex btn-upper">
+      <div class="">
+        <button class="btn-sign" >Sign up</button>
+      </div>
+      <div class="">
+  
+        <button class="btn-login" >Log in</button>
+      </div>
+    </div>
+  </div> -->
+
+  <header class="header flex item-center justify-between">
+    <div class="logo">
+      <img class="invert" src="/logo.svg" alt="">
+    </div>
+    <div class="search-container flex">
+      <div class="home-header ">
+        <img src="/upperhome.svg" alt="">
+      </div>
+        <input type="text" placeholder="Search..." class="search-bar">
+    </div>
+    <div class="flex btn-upper">
+      <div class="">
+        <button class="btn-sign" >Sign up</button>
+      </div>
+      <div class="">
+  
+        <button class="btn-login" >Log in</button>
+      </div>
+    </div>
+</header>
+
+  <div class="main-container flex bg-black">
+
+    <div class="left   ">
+
+      <div class="library bg-grey rounded m-1">
+
+        <div class="heading">
+          <div class="front-h1 flex item-center">
+            <img class="invert" src="/library.svg" alt="library.svg">
+            <h2>Your Library</h2>
+          </div>
+
+
+
+          <div class="cros-ham">
+            <img class="invert" src="/close.svg" alt="">
+          </div>
+        </div>
+        <div class="song-container">
+          <ul>
+
+
+
+          </ul>
+        </div>
+
+        
+
+        <div class="footer">
+
+          <div>
+            <a href="https://www.spotify.com/in-en/legal/">
+              <span>Legal</span>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+              <span>Safety &amp; Privacy Center</span>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+              <span>Privacy Policy</span>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+              <span>Cookies</span>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+              <span>About Ads</span>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/in-en/accessibility/">
+              <span>Accessibility</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+    <div class="right bg-grey rounded">
+
+      <div class="spotifyPlaylists">
+        <div class="playlist-header flex">
+          <img class="invert humberguger " src="/hamburger.svg" alt="">
+          <h1>Spotify Playlists</h1>
+
+        </div>
+
+        <div class="card-container">
+
+          
+          <!-- <div data-folder="ncs" class="card">
+
+            
+
+            <div class="circular-image-play">
+
+              
+              <img  src="/cicularimageplay.svg" alt="">
+            </div>
+            
+            
+
+            <img src="https://i.scdn.co/image/ab67706f000000026020f2f6476db518ef747da4" alt="">
+            <h2>Happy Hits!</h2>
+            <p>Keep calm and focus with ambient electric guitar.</p>
+          </div> -->
+
+          
+
+
+        </div>
+
+        <div class="whole-playbar">
+          <div class="playbar ">
+            <div class="seekbar">
+
+              <div class="circle">
+
+              </div>
+            </div>
+
+            <div class=" space-between">
+
+
+              <div class="song-info">
+
+              </div>
+
+              <div class="play-buttons">
+
+                <img id="previus" class="invert" src="/previews-song.svg" alt="">
+                <img id="playy" class="invert" src="/play.svg" alt="">
+                <img id="forwartrack" class="invert" src="/next-song.svg" alt="">
+
+              </div>
+
+              <div class="flex item-center">
+                <div class="song-time">
+                </div>
+
+                <div class="main-rock ">
+                  <img class=" vol-imgage " src="/volume.svg" alt="">
+
+                  <input class="range-margin" type="range" name="volume">
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
